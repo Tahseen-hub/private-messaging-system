@@ -56,7 +56,7 @@ if(isset($_POST['username'], $_POST['password'], $_POST['passverif'], $_POST['em
 						//We dont display the form
 						$form = false;
 ?>
-		<div class="message"><strong> You are registered successfully</strong><br> You can log in<br />
+		<div class="message" style="color: green"><strong> You are registered successfully</strong><br> You can log in<br />
 		<a href="connection.php"><strong>Log in</strong></a></div>
 <?php
 					}
