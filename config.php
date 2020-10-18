@@ -20,10 +20,10 @@ if (!$link) {
 }
 
 //Webmaster Email
-$mail_webmaster = 'knewaz@gmail.com';
+$mail_webmaster = 'dr_zidane83@yahoo.com';
 
 //Top site root URL
-$url_root = 'https://fast-scrubland-99567.herokuapp.com/';
+$url_root = 'https://cybersecurity-pms.herokuapp.com/';
 
 /******************************************************
 -----------------Optional Configuration----------------
