@@ -15,7 +15,7 @@
 //We get all rows of users
 
 echo "user<BR>";
-echo "id,username,password,e-mail,avatar,signup_date,salt<BR>";
+echo "id,username,password,e-mail,signup_date,salt<BR>";
 $req = mysqli_query($link, 'select * from users');
 
 while($dnn = mysqli_fetch_array($req))

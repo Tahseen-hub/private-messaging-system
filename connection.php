@@ -3,8 +3,8 @@
 include('config.php');
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link href="<?php echo $design; ?>/style.css" rel="stylesheet" title="Style" />
@@ -21,7 +21,7 @@ if(isset($_SESSION['username']))
 	//We log him out by deleting the username and userid sessions
 	unset($_SESSION['username'], $_SESSION['userid']);
 ?>
-<div class="message">You have been successfuly logged out.<br />
+<div class="message" style="color: green">You have been successfuly logged out.<br />
 
 <?php
 }
@@ -55,7 +55,7 @@ else
 			$_SESSION['username'] = $_POST['username'];
 			$_SESSION['userid'] = $dn['id'];
 ?>
-<div class="message"> You have been successfuly logged in.<br />
+<div class="message" style="color: green"> You have been successfuly logged in.<br />
 
 <?php
 		}
